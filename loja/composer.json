@@ -1,0 +1,14 @@
+{
+    "name": "hack/projeto",
+    "autoload": {
+        "files":[
+            "app/routers/router.php",
+            "app/helpers/verifyController.php",
+            "app/core/const.php"
+        ],
+        "psr-4": {
+            "app\\": "app/"
+        }
+    },
+    "require": {}
+}
